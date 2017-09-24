@@ -7,3 +7,7 @@ def unsafe?(speed)
     false
   end
 end
+
+def not_safe?(speed)
+  speed.to_i > 60 ? true : false
+end
